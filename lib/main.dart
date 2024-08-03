@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
 
 5. How to crate a new Branch on Github? - Done
 
-6. How to create a Merge Request (MR) on Github & approve it.
+6. How to create a Merge Request (MR) on Github & approve it. Hello
 
 7. How to Merge Branches?
 
