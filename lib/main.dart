@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
 
 4. How to commit you code and push it to Github? - Done
 
-5. How to crate a new Branch on Github?
+5. How to crate a new Branch on Github? - Done
 
 6. How to create a Merge Request (MR) on Github & approve it.
 
