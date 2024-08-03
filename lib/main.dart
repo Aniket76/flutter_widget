@@ -27,9 +27,9 @@ class MyApp extends StatelessWidget {
 
 2. How to create Github Repository? - Done
 
-3. How to attach your Flutter Project with your Github Repository?
+3. How to attach your Flutter Project with your Github Repository? - Done
 
-4. How to commit you code and push it to Github?
+4. How to commit you code and push it to Github? - Done
 
 5. How to crate a new Branch on Github?
 
