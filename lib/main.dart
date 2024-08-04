@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.amberAccent),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Widget Episode 0: Base Setup'),
+      home: const MyHomePage(title: 'DFW Ep #0: Base Setup'),
     );
   }
 }
