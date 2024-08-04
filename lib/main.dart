@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
           bodyMedium: TextStyle(fontSize: 32, color: Colors.red, fontWeight: FontWeight.w700),
         ),
       ),
-      home: const MyHomePage(title: 'Flutter Widget Episode 1: Text'),
+      home: const MyHomePage(title: 'DFW Ep #1: Text Widget'),
     );
   }
 }
