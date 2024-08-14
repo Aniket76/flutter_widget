@@ -1,4 +1,10 @@
+import 'dart:ui';
+
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/services.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Widget',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.amberAccent),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.amber),
         useMaterial3: true,
       ),
       home: const MyHomePage(title: 'DFW Ep #0: Base Setup'),
@@ -34,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.amberAccent.shade200.withOpacity(0.2),
+      backgroundColor: Colors.amber.shade50,
       appBar: AppBar(
         title: Text(
           widget.title,
@@ -44,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           textAlign: TextAlign.center,
         ),
-        backgroundColor: Colors.amberAccent.shade200,
+        backgroundColor: Colors.amberAccent.shade700,
       ),
     );
   }
